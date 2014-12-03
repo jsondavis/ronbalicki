@@ -1364,11 +1364,16 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		/*background: #e89980; */
+		background: #888888;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
+
+		#cta label {
+			color: #fff;
+		}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
 			color: inherit;
@@ -1386,7 +1391,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #888888;
 		}
 
 		#cta input[type="text"],
@@ -1449,4 +1454,8 @@
 #sponsorpic {
 	background-image: url("images/overlay.png"), url("../images/Sponsor_Icon.png");
 	background-size: auto,							cover;	
+}
+
+.clear input {
+	margin-top: 1.5em;
 }
