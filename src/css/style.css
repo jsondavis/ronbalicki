@@ -1222,7 +1222,8 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/overlay.png"), url("../images/banner.jpg");*/
+		background-image: url("images/overlay.png"), url("../images/Ron_Balicki_Lead_Image.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -1425,3 +1426,27 @@
 		#cta .formerize-placeholder {
 			color: rgba(255, 255, 255, 0.75) !important;
 		}
+
+
+
+/* new images */
+
+#ronpic {
+	background-image: url("images/overlay.png"), url("../images/Ron_Balicki_First_Circle2.jpg");	
+	background-size: auto,							cover;	
+}
+
+#awardpic {
+	background-image: url("images/overlay.png"), url("../images/Award_Icon.png");
+	background-size: auto,							cover;	
+}
+
+#donatepic {
+	background-image: url("images/overlay.png"), url("../images/Donate_Icon.png");
+	background-size: auto,							cover;	
+}
+
+#sponsorpic {
+	background-image: url("images/overlay.png"), url("../images/Sponsor_Icon.png");
+	background-size: auto,							cover;	
+}
