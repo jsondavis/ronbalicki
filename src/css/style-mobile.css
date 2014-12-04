@@ -65,6 +65,7 @@
 
 		.box .image.featured {
 			margin-left: -2em;
+			width: -webkit-calc(100% + 4em);
 			width: calc(100% + 4em);
 		}
 
@@ -81,7 +82,7 @@
 /* Banner */
 
 	#banner {
-		padding: 4em 0;
+		padding: 1em 0;
 	}
 
 		#banner h2 {

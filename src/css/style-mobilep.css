@@ -58,6 +58,7 @@
 
 	.box {
 		border-radius: 0;
+		-webkit-box-shadow: none;
 		box-shadow: none;
 		margin: 1em 0 0 0;
 		padding: 3em 1em !important;
@@ -71,6 +72,7 @@
 		.box .image.featured {
 			border-radius: 0;
 			margin-left: -1em;
+			width: -webkit-calc(100% + 2em);
 			width: calc(100% + 2em);
 		}
 
@@ -91,7 +93,7 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 1em 4em 1em;
+		padding: 0.5em 1em 0.5em 1em;
 	}
 
 /* Main */
