@@ -1211,7 +1211,7 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		/*background-image: url("images/overlay.png"), url("../images/banner.jpg");*/
-		background-image: url("images/overlay.png"), url("../images/Ron_Balicki_Lead_Image.jpg");
+		background-image: url("images/overlay.png"), url("../images/Ron_Lead_Crop.jpg");
 		background-position: bottom left,						center top;
 		background-repeat: repeat,							no-repeat;
 		-webkit-background-size: auto,							cover;
